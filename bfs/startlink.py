@@ -1,6 +1,6 @@
 from collections import deque
 input_data = list(map(int,input().split()))
-def solution(max_floor,cur_floor,target_floor,up,down): # 스타트링크
+def solution(max_floor,cur_floor,target_floor,up,down):  # 스타트링크
     queue = deque()
     queue.append((cur_floor,0))
     visited = {cur_floor}
